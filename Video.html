@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="styles.css">
+  <style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#myVideo {
+    width: 100%;
+    height: auto;
+}
+
+  
+  </style>
+</head>
+<body>
+    <div class="video-container">
+        <video id="myVideo" controls>
+            <source src="/storage/emulated/0/Download/2tech video.mp4" type="video/mp4">
+           
+        </video>
+    </div>
+    <script src="script.js">
+  document.addEventListener('DOMContentLoaded', function() {
+    var video = document.getElementById('myVideo');
+
+    // Additional JavaScript functionality can be added here
+    // For example: video.play(), video.pause(), etc.
+});
+
+  
+  </script>
+</body>
+</html>
